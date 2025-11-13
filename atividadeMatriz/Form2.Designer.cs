@@ -42,9 +42,10 @@
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(88, 186);
+            btnCalcular.Location = new Point(77, 140);
+            btnCalcular.Margin = new Padding(3, 2, 3, 2);
             btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(120, 58);
+            btnCalcular.Size = new Size(105, 44);
             btnCalcular.TabIndex = 9;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
@@ -53,9 +54,10 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(88, 186);
+            btnAdd.Location = new Point(77, 140);
+            btnAdd.Margin = new Padding(3, 2, 3, 2);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(120, 58);
+            btnAdd.Size = new Size(105, 44);
             btnAdd.TabIndex = 8;
             btnAdd.Text = "Adicionar";
             btnAdd.UseVisualStyleBackColor = true;
@@ -64,32 +66,37 @@
             // lstMatrizB
             // 
             lstMatrizB.FormattingEnabled = true;
-            lstMatrizB.Location = new Point(548, 165);
+            lstMatrizB.ItemHeight = 15;
+            lstMatrizB.Location = new Point(480, 124);
+            lstMatrizB.Margin = new Padding(3, 2, 3, 2);
             lstMatrizB.Name = "lstMatrizB";
-            lstMatrizB.Size = new Size(150, 184);
+            lstMatrizB.Size = new Size(132, 139);
             lstMatrizB.TabIndex = 7;
             // 
             // lstMatrizA
             // 
             lstMatrizA.FormattingEnabled = true;
-            lstMatrizA.Location = new Point(323, 165);
+            lstMatrizA.ItemHeight = 15;
+            lstMatrizA.Location = new Point(283, 124);
+            lstMatrizA.Margin = new Padding(3, 2, 3, 2);
             lstMatrizA.Name = "lstMatrizA";
-            lstMatrizA.Size = new Size(150, 184);
+            lstMatrizA.Size = new Size(132, 139);
             lstMatrizA.TabIndex = 6;
             // 
             // txtNum
             // 
-            txtNum.Location = new Point(272, 79);
+            txtNum.Location = new Point(238, 59);
+            txtNum.Margin = new Padding(3, 2, 3, 2);
             txtNum.Name = "txtNum";
-            txtNum.Size = new Size(125, 27);
+            txtNum.Size = new Size(110, 23);
             txtNum.TabIndex = 5;
             // 
             // lblNum
             // 
             lblNum.AutoSize = true;
-            lblNum.Location = new Point(3, 82);
+            lblNum.Location = new Point(3, 62);
             lblNum.Name = "lblNum";
-            lblNum.Size = new Size(263, 20);
+            lblNum.Size = new Size(207, 15);
             lblNum.TabIndex = 10;
             lblNum.Text = "Digite o numero que deseja adicionar:";
             lblNum.Click += lblNum_Click;
@@ -97,27 +104,26 @@
             // lblMatrizA
             // 
             lblMatrizA.AutoSize = true;
-            lblMatrizA.Location = new Point(359, 130);
+            lblMatrizA.Location = new Point(314, 98);
             lblMatrizA.Name = "lblMatrizA";
-            lblMatrizA.Size = new Size(65, 20);
+            lblMatrizA.Size = new Size(51, 15);
             lblMatrizA.TabIndex = 11;
             lblMatrizA.Text = "Matriz A";
             // 
             // lblMatrizB
             // 
             lblMatrizB.AutoSize = true;
-            lblMatrizB.Location = new Point(587, 130);
+            lblMatrizB.Location = new Point(514, 98);
             lblMatrizB.Name = "lblMatrizB";
-            lblMatrizB.Size = new Size(64, 20);
+            lblMatrizB.Size = new Size(50, 15);
             lblMatrizB.TabIndex = 12;
             lblMatrizB.Text = "Matriz B";
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(587, 367);
-            btnVoltar.Margin = new Padding(3, 4, 3, 4);
+            btnVoltar.Location = new Point(514, 275);
             btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(145, 61);
+            btnVoltar.Size = new Size(127, 46);
             btnVoltar.TabIndex = 14;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
@@ -125,10 +131,9 @@
             // 
             // btnLimpar
             // 
-            btnLimpar.Location = new Point(316, 367);
-            btnLimpar.Margin = new Padding(3, 4, 3, 4);
+            btnLimpar.Location = new Point(276, 275);
             btnLimpar.Name = "btnLimpar";
-            btnLimpar.Size = new Size(145, 61);
+            btnLimpar.Size = new Size(127, 46);
             btnLimpar.TabIndex = 13;
             btnLimpar.Text = "Limpar";
             btnLimpar.UseVisualStyleBackColor = true;
@@ -136,9 +141,9 @@
             // 
             // FrmMatriz1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(btnVoltar);
             Controls.Add(btnLimpar);
             Controls.Add(lblMatrizB);
@@ -149,8 +154,9 @@
             Controls.Add(lstMatrizB);
             Controls.Add(lstMatrizA);
             Controls.Add(txtNum);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FrmMatriz1";
-            Text = "Form2";
+            Text = "Quadrado";
             ResumeLayout(false);
             PerformLayout();
         }

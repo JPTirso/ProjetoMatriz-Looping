@@ -78,7 +78,6 @@ namespace atividadeMatriz
             bool encontrado = false;
             int posicao = -1;
 
-            // Pesquisa sequencial
             for (int j = 0; j < Cubo.Length; j++)
             {
                 if (Cubo[j] == valorPesquisado)
@@ -89,9 +88,10 @@ namespace atividadeMatriz
                 }
             }
 
+
             if (encontrado)
             {
-                MessageBox.Show("Valor " + valorPesquisado + " encontrado na posição " + posicao + " da Matriz B");
+                MessageBox.Show("Valor " + valorPesquisado + " encontrado na posição " + (posicao + 1) + " da Matriz B");
             }
             else
             {
@@ -103,6 +103,11 @@ namespace atividadeMatriz
         }
 
         private void FrmCubo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPesquisa_TextChanged(object sender, EventArgs e)
         {
 
         }

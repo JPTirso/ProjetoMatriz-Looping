@@ -25,8 +25,8 @@ namespace atividadeMatriz
             comodos = Convert.ToInt32(txtComodo.Text);
             if (comodos > 0)
             {
-                string[] larguras = txtLarg.Text.Split(',');
-                string[] comprimentos = txtComp.Text.Split(',');
+                string[] larguras = txtLarg.Text.Split(';');
+                string[] comprimentos = txtComp.Text.Split(';');
 
                 if (larguras.Length != comodos || comprimentos.Length != comodos)
                 {
@@ -60,8 +60,8 @@ namespace atividadeMatriz
             comodos = Convert.ToInt32(txtComodo.Text);
             if (comodos > 0)
             {
-                string[] larguras = txtLarg.Text.Split(',');
-                string[] comprimentos = txtComp.Text.Split(',');
+                string[] larguras = txtLarg.Text.Split(';');
+                string[] comprimentos = txtComp.Text.Split(';');
 
                 if (larguras.Length != comodos || comprimentos.Length != comodos)
                 {
@@ -96,8 +96,8 @@ namespace atividadeMatriz
             comodos = Convert.ToInt32(txtComodo.Text);
             if (comodos > 0)
             {
-                string[] larguras = txtLarg.Text.Split(',');
-                string[] comprimentos = txtComp.Text.Split(',');
+                string[] larguras = txtLarg.Text.Split(';');
+                string[] comprimentos = txtComp.Text.Split(';');
 
                 if (larguras.Length != comodos || comprimentos.Length != comodos)
                 {
